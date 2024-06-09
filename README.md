@@ -2,25 +2,31 @@
 
 1. Install dependencies
 
-```bash
-pnpm install
-```
+   ```bash
+   pnpm install
+   ```
 
 2. Run the development server:
 
-```bash
-pnpm dev
-```
+   ```bash
+   pnpm dev
+   ```
 
 3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+4. After modifying the CMS, generate types:
+
+   ```bash
+   pnpm generate:types
+   ```
+
 ---
 
-## CMS
+## Payload CMS
 
-### Payload 3.0 Beta Demo
+### Using Payload 3.0 Beta
 
-This repo showcases a demo of the Payload 3.0 Beta running completely within Next.js.
+This repository includes a demo of the Payload 3.0 Beta running completely within Next.js.
 
 > [!IMPORTANT]
 > The installation steps below should not be executed in this repository.
